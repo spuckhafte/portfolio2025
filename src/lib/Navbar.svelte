@@ -32,7 +32,7 @@
 
 </script>
 
-<nav class="w-full xl:px-[5rem] px-[1rem]  py-5 relative flex *:w-full justify-center items-center z-50 bg-white">
+<nav class="absolute w-full py-5 flex *:w-full justify-center items-center z-50 bg-white xl:px-[5rem] px-[1rem] ">
     <div class="flex items-center font-extrabold">
         <img src="/logo.png" alt="" width="40px" height="40px" fetchpriority="high"/>
         <div class="w-fit cursor-pointer transform translate-x-[-9px]">akshit</div>
@@ -52,14 +52,13 @@
                 <Fa class="cursor-pointer" icon={faBars} size={"lg"}/>
             </button>
         </div>
-
     {/if}
 </nav>
 
 {#if screenWidth <= SMALL_VP}
     <div class={
-        "absolute z-20 flex flex-col border justify-center items-center gap-3 p-2 bg-black text-white w-full rounded-es-2xl rounded-ee-2xl transform " +
-            (showNavLinks ? "translate-y-0" : "translate-y-[-100%]") + 
+        "absolute z-40 flex flex-col border justify-center items-center gap-3 p-2 bg-black text-white w-full rounded-es-2xl rounded-ee-2xl transform " +
+            (showNavLinks ? "translate-y-[40%]" : "translate-y-[-200%]") + 
             " transition-transform ease-in-out"
     }>
         <div class="*:font-[600] *:cursor-pointer *:text-center flex flex-col gap-1">

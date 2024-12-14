@@ -1,7 +1,9 @@
 <script lang="ts">
-    import Navbar from "./lib/Navbar.svelte";
+    import About from "./lib/About.svelte";
+import Navbar from "./lib/Navbar.svelte";
 
 </script>
-<main class="font-main w-screen h-screen overflow-hidden p-0 m-0">
+<main class="font-main w-screen h-screen overflow-x-hidden">
     <Navbar />
+    <About />
 </main>
