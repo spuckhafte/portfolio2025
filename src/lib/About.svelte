@@ -20,7 +20,7 @@
     });
 
 </script>
-<main class="relative pt-24 xl:px-[5rem] px-[1rem]" bind:this={main}>
+<main id="about" class="relative pt-24 xl:px-[5rem] px-[1rem]" bind:this={main}>
     <div class="absolute flex flex-col md:h-full lg:w-[45%] md:w-[50%] sm:w-[80%] z-20 md:pr-[0rem] pr-[0.5rem]">
         <div class="lg:text-4xl text-2xl sm:h-full h-fit flex items-end">
             <span>Hello I'am <b>Rakshit</b>.<br>
