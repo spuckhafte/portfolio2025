@@ -72,7 +72,7 @@
 {/if}
 
 {#snippet navlinks()}
-{#each Object.keys(links) as link}
-<a href={links[link]}> {link} </a>
-{/each}
+    {#each Object.keys(links) as link}
+        <a href={links[link]}> {link} </a>
+    {/each}
 {/snippet}
