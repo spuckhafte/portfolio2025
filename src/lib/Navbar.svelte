@@ -48,7 +48,7 @@
     
     {:else}
         <div class="flex justify-end">
-            <button onclick={() => showNavLinks = !showNavLinks}>
+            <button class="mr-2.5" onclick={() => showNavLinks = !showNavLinks}>
                 <Fa class="cursor-pointer" icon={faBars} size={"lg"}/>
             </button>
         </div>
