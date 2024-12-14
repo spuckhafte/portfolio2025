@@ -57,8 +57,8 @@
 
 {#if screenWidth <= SMALL_VP}
     <div class={
-        "absolute z-40 flex flex-col border justify-center items-center gap-3 p-2 bg-black text-white w-full rounded-es-2xl rounded-ee-2xl transform " +
-            (showNavLinks ? "translate-y-[40%]" : "translate-y-[-200%]") + 
+        "absolute z-40 flex flex-col border justify-center items-center gap-3 p-2.5 bg-black text-white w-full rounded-es-2xl rounded-ee-2xl transform " +
+            (showNavLinks ? "translate-y-[41%]" : "translate-y-[-200%]") + 
             " transition-transform ease-in-out"
     }>
         <div class="*:font-[600] *:cursor-pointer *:text-center flex flex-col gap-1">
