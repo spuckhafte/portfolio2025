@@ -58,13 +58,14 @@
 {#if screenWidth <= SMALL_VP}
     <div class={
         "absolute z-40 flex flex-col border justify-center items-center gap-3 p-2.5 bg-black text-white w-full rounded-es-2xl rounded-ee-2xl transform " +
-            (showNavLinks ? "translate-y-[41%]" : "translate-y-[-200%]") + 
+            (showNavLinks ? "translate-y-[29.5%]" : "translate-y-[-100%]") + 
             " transition-transform ease-in-out"
     }>
-        <div class="*:font-[600] *:cursor-pointer *:text-center flex flex-col gap-1">
+        
+        <div class="*:font-[600] *:cursor-pointer *:text-center flex flex-col gap-3 py-3">
             {@render navlinks()}
         </div>
-        <div>
+        <div class="pb-3">
             <Button text="Resume" icon={faFileDownload} link="/resume.pdf" invert />
         </div>
     </div>
