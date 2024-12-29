@@ -2,8 +2,9 @@
     import Fa from "svelte-fa";
     import Button from "./util/Button.svelte";
     import { faBars, faFileDownload } from "@fortawesome/free-solid-svg-icons";
+    import { MID_BP } from "./util/helpers.js";
     
-    const SMALL_VP = 768;
+    const MEDIUM_BP = MID_BP;
 
     const links: { [index: string]: string } = {
         "About": "#about",
@@ -17,7 +18,7 @@
 
     $effect(() => {
         const resize = () => {
-            if (window.innerWidth > SMALL_VP && screenWidth <= SMALL_VP)
+            if (window.innerWidth > MEDIUM_BP && screenWidth <= MEDIUM_BP)
                 showNavLinks = false;
 
             screenWidth = window.innerWidth;;
@@ -37,7 +38,7 @@
         <img src="/logo.png" alt="" width="40px" height="40px" fetchpriority="high"/>
         <div class="w-fit cursor-pointer transform translate-x-[-9px]">akshit</div>
     </div>
-    {#if screenWidth > SMALL_VP}
+    {#if screenWidth > MEDIUM_BP}
         <div class="flex justify-center lg:gap-[2.5rem] min-w-[500px] md:gap-[1.5rem] *:font-[600] *:cursor-pointer">
             {@render navlinks()}
         </div>
@@ -55,7 +56,7 @@
     {/if}
 </nav>
 
-{#if screenWidth <= SMALL_VP}
+{#if screenWidth <= MEDIUM_BP}
     <div class={
         "absolute z-40 flex flex-col border justify-center items-center gap-3 p-2.5 bg-black text-white w-full rounded-es-2xl rounded-ee-2xl transform " +
             (showNavLinks ? "translate-y-[29.5%]" : "translate-y-[-100%]") + 

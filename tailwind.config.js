@@ -9,6 +9,13 @@ export default {
             fontFamily: {
                 "main": ["Montserrat", "sans-serif"],
             },
+        },  
+        // breakpoints for responsive design (this is tailwind.config.js)
+        screens: {
+            'sm': '640px',
+            'md': '870px',
+            'lg': '1024px',
+            'xl': '1280px',
         },
     },
     plugins: [],

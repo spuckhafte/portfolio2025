@@ -26,11 +26,19 @@
     {/snippet}
     
     {#if link}
-        <a href={link} class={"flex justify-center items-center gap-2 w-full h-full " + (square ? "p-3" : "py-2 px-5") + " " + className}>
+        <a href={link} class={
+            "flex justify-center items-center gap-2 w-full h-full " + 
+            (square ? "p-3 aspect-square" : "py-2 px-5") + " "
+            + className
+        }>
             {@render content()}
         </a>
     {:else}
-        <div class={"flex justify-center items-center gap-2 w-full h-full " + (square ? "p-3" : "py-2 px-5") + " " + className}>
+        <div class={
+            "flex justify-center items-center gap-2 w-full h-full " + 
+            (square ? "p-3 aspect-square" : "py-2 px-5") + " " 
+            + className}
+        >
             {@render content()}
         </div>
     {/if}
