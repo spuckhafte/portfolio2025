@@ -6,7 +6,7 @@
     import { MID_BP } from "./util/helpers.js";
 
     const MEDIUM_BP = MID_BP;
-    const TOP_OFFSET = 150;
+    const TOP_OFFSET = 130;
 
     const socialMediaLinks = [
         { icon: faGithub, link: "https://github.com/spuckhafte" },
@@ -88,7 +88,7 @@
     {#if (innerWidth.current ?? 0) >= MEDIUM_BP}
         <div 
             bind:clientHeight={maxChildHeight} 
-            class="absolute flex justify-end w-[70%] left-[100%] transform translate-x-[-100%] mt-[150px]"
+            class="absolute flex justify-end w-[70%] left-[100%] transform translate-x-[-100%] mt-[130px]"
         >
             <img src="/Banner.svg" alt="banner"/>
         </div>
