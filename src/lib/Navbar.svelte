@@ -8,7 +8,7 @@
 
     const links: { [index: string]: string } = {
         "About": "#about",
-        "Expirience": "#expirience",
+        "Experience": "#experience",
         "Projects": "#projects",
         "Contact": "#contact",
     };

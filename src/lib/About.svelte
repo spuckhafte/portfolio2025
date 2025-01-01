@@ -69,9 +69,9 @@
         bind:clientHeight={maxChildHeight2}
     >
         <div class="lg:text-4xl text-2xl sm:h-full h-fit flex items-end">
-            <span>Hello I'am <b>Rakshit</b>.<br>
+            <span>Hello I am <b>Rakshit</b>.<br>
             <b>Fullstack</b> Developer<br>
-            Based in <b>India</b></span>
+            Based in <b>India</b>.</span>
         </div>
         <div class="text-xs text-gray-400 font-[550] h-full lg:pt-7 pt-3 ">
             <div class="skills-container cursor-default">
