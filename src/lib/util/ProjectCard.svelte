@@ -24,10 +24,10 @@
         max-w-[350px] relative left-1/2 transform translate-x-[-50%] sm:left-0 sm:transform-none
         sm:flex-[1]
     `}>
-        <img class="rounded-lg w-fit aspect-square" src={banner} alt={title} />
+        <img class="rounded-lg w-fit aspect-[5/4] sm:aspect-square" src={banner} alt={title} />
     </div>
     <div class="flex flex-col gap-3 sm:flex-[1.5] sm:gap-1">
-        <div class="text-lg font-bold sm:text-2xl">{serial}</div>
+        <div class="text-lg font-bold mb-[-8px] sm:mb-0">{serial}</div>
         <div class="font-bold">{title}</div>
         <div class="text-xs text-gray-500 font-[500] sm:py-2">{description}</div>
         <div class="flex flex-wrap gap-[0.4rem] cursor-default sm:pb-2">
