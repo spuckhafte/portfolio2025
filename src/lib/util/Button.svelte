@@ -9,12 +9,18 @@
         invert?: boolean
         square?: boolean
         className?: string
+        lessRounded?: boolean
     };
 
-    let { text, icon, link, invert, square, className }: Props = $props();
+    let { text, icon, link, invert, square, className, lessRounded }: Props = $props();
 </script>
 
-<button class={`font-[600] ${ invert ? "bg-white text-black" : "bg-black text-white" } rounded-md`}>
+<button class={
+    `
+        font-[600] ${ invert ? "bg-white text-black" : "bg-black text-white" } 
+        ${lessRounded ? "rounded-sm" : "rounded-md"}
+    `
+}>
     {#snippet content()}
         {#if text}
             <div>{ text }</div>
