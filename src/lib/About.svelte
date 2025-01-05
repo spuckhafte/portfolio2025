@@ -75,7 +75,19 @@
         </div>
         <div class="text-xs text-gray-400 font-[550] h-full lg:pt-7 pt-3 ">
             <div class="skills-container cursor-default">
-                Fluent in <span class="skills">TypeScript</span> and <span class="skills">Python</span>, I am learning <span class="skills">C++</span> and <span class="skills">Rust</span> while exploring low-level programming and algorithms. My expertise includes frameworks like <span class="skills">React</span>, <span class="skills">Next.js</span>, <span class="skills">Svelte</span>, <span class="skills">Node.js</span>, and <span class="skills">Socket.io</span>. I can also work with <span class="skills">Flask</span> and machine learning tools like <span class="skills">NumPy</span> and <span class="skills">Scikit</span>. Skilled in <span class="skills">SQL</span> and <span class="skills">NoSQL</span> databases, including <span class="skills">MongoDB</span> and <span class="skills">MySQL</span> with <span class="skills">Prisma</span>, I also use <span class="skills">Redis</span> for caching. Beyond tech, I am passionate about <span class="skills">Music Production</span> and <span class="skills">Victorian-era Literature</span>.
+                Fluent in <span class="skills">TypeScript</span> and <span class="skills">Python</span>, 
+                I am learning <span class="skills">C++</span> and <span class="skills">Rust</span> 
+                while exploring low-level programming and algorithms. My expertise includes frameworks like 
+                <span class="skills">React</span>, <span class="skills">Next.js</span>, 
+                <span class="skills">Svelte</span>, <span class="skills">Node.js</span>, and 
+                <span class="skills">Socket.io</span>. I can also work with <span class="skills">Flask</span> 
+                and machine learning tools like <span class="skills">NumPy</span> and 
+                <span class="skills">Scikit</span>. Skilled in <span class="skills">SQL</span> and 
+                <span class="skills">NoSQL</span> databases, including <span class="skills">MongoDB</span> 
+                and <span class="skills">MySQL</span> with <span class="skills">Prisma</span>, I also use 
+                <span class="skills">Redis</span> for caching. Beyond tech, I am passionate about 
+                <span class="skills">Music Production</span> and 
+                <span class="skills">Victorian-era Literature</span>.
             </div>
         </div>
         <div class="flex gap-4 transform translate-y-[50%]">

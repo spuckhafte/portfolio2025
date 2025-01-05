@@ -31,6 +31,11 @@
         }
     });
 
+    function handleLinkClick() {
+        if (showNavLinks) 
+            showNavLinks = false;
+    }
+
 </script>
 
 <nav class="absolute w-full py-5 flex *:w-full justify-center items-center z-50 bg-white xl:px-[5rem] px-[1rem] shadow-lg">
@@ -59,9 +64,11 @@
 
 {#if screenWidth <= MEDIUM_BP}
     <div class={
-        "absolute z-40 flex backdrop-blur-2xl bg-gradient-to-r from-white/80 to-white/30 flex-col justify-center items-center gap-3 p-2.5 w-full rounded-es-lg rounded-ee-lg transform text-black shadow-lg " +
-            (showNavLinks ? "translate-y-[29.5%]" : "translate-y-[-100%]") + 
-            " transition-transform ease-in-out duration-300"
+        `absolute z-40 flex backdrop-blur-2xl bg-gradient-to-r from-white/80 to-white/30 
+        flex-col justify-center items-center gap-3 p-2.5 w-full rounded-es-lg rounded-ee-lg 
+        transform text-black shadow-lg ` 
+            + (showNavLinks ? "translate-y-[29.5%]" : "translate-y-[-100%]") 
+            + " transition-transform ease-in-out duration-300"
     }>
         
         <div class="*:font-[600] *:cursor-pointer *:text-center flex flex-col gap-3 py-3">
@@ -75,6 +82,6 @@
 
 {#snippet navlinks()}
     {#each Object.keys(links) as link}
-        <a href={links[link]}> {link} </a>
+        <a onclick={handleLinkClick} href={links[link]}> {link} </a>
     {/each}
 {/snippet}

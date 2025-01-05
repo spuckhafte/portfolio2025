@@ -46,7 +46,7 @@
             </div>
             <div class="text-lg font-[500]">
                 rakshit240405@gmail.com<br>
-                +91 827388 5676
+                +91 82738 85676
             </div>
         </div>
     </div>
