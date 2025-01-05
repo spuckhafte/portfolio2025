@@ -34,8 +34,9 @@
         if (!skills) return;
 
         let allIndices: number[] = Array.from({ length: skills.length }, (_, i) => i);
-        let lastIndex = -1;
-
+        let lastIndex = allIndices[Math.random() * allIndices.length | 0];
+        
+        skills[lastIndex].classList.add("skills-color");
         setInterval(() => {
             if (allIndices.length === 0)
                 allIndices = Array.from({ length: skills.length }, (_, i) => i);
@@ -50,7 +51,7 @@
     
             skills[selectedIndex].classList.add("skills-color");
             lastIndex = selectedIndex;
-        }, 500);
+        }, 1500);
     });
 
 </script>
