@@ -65,7 +65,7 @@
 {#if screenWidth <= MEDIUM_BP}
     <div class={
         `absolute z-40 flex backdrop-blur-2xl bg-gradient-to-br from-white/80 to-white/30 
-        flex-col justify-center items-center gap-3 p-2.5 w-full rounded-es-lg rounded-ee-lg 
+        flex-col justify-center items-center gap-3.5 p-2.5 py-4 w-full rounded-es-lg rounded-ee-lg 
         transform text-black shadow-lg border-b border-gray-300 ` 
             + (showNavLinks ? "translate-y-[29.5%]" : "translate-y-[-100%]") 
             + " transition-transform ease-in-out duration-300"
