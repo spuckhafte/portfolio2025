@@ -10,7 +10,6 @@
     font-weight: 500;
 }
 .skills-color {
-    font-weight: 600;
     color: transparent;
     background-clip: text;
     background-image: linear-gradient(90deg, #ee0979, #ff6a00);

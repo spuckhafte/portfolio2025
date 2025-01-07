@@ -75,7 +75,7 @@
             Based in <b>India</b>.</span>
         </div>
         <div class="text-xs text-gray-400 font-[550] h-full lg:pt-7 pt-3 ">
-            <div class="skills-container cursor-default">
+            <div class="skills-container cursor-default select-none">
                 Fluent in <span class="skills">TypeScript</span> and <span class="skills">Python</span>, 
                 I am learning <span class="skills">C++</span> and <span class="skills">Rust</span> 
                 while exploring low-level programming and algorithms. My expertise includes frameworks like 
